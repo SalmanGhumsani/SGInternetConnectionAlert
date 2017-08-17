@@ -3,10 +3,10 @@ A warning that shows an alert automatically with animation when no internet conn
 
 `SGInternetConnectionAlert.shared.enable = true`
         
-`//IF YOU NEED EXTRA CONFIGURATION
+`//IF YOU NEED EXTRA CONFIGURATION`
 
-var config = SGInternetConnectionAlert.Configuration()
+`var config = SGInternetConnectionAlert.Configuration()`
 
-config.kBG_COLOR = UIColor.blue
+`config.kBG_COLOR = UIColor.blue`
 
-SGInternetConnectionAlert.shared.config = config`
+`SGInternetConnectionAlert.shared.config = config`
