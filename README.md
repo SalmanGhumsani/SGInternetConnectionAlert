@@ -1,6 +1,6 @@
 # SGInternetConnectionAlert.swift
 
-‘MIT License’
+
 
 A warning that shows an alert automatically with animation when no internet connection also hide automatically when the internet comes back.
 
@@ -13,4 +13,6 @@ config.kBG_COLOR = UIColor.blue
 SGInternetConnectionAlert.shared.config = config
 ```
 
-# Also thanks to Reachability.swift
+## Also thanks to Reachability.swift
+
+### Under MIT License
