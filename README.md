@@ -10,6 +10,7 @@ SGInternetConnectionAlert.shared.enable = true
 //IF YOU NEED EXTRA CONFIGURATION
 var config = SGInternetConnectionAlert.Configuration()
 config.kBG_COLOR = UIColor.blue
-SGInternetConnectionAlert.shared.config = config```
+SGInternetConnectionAlert.shared.config = config
+```
 
-## Also thanks to Reachability.swift
+# Also thanks to Reachability.swift
