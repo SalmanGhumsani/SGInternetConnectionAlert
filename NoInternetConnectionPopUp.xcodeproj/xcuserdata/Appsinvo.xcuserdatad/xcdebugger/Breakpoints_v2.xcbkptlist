@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoInternetConnectionPopUp/Resource/SGInternetConnectionAlert.swift"
-            timestampString = "524671186.137252"
+            timestampString = "524674999.874887"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "config"
             landmarkType = "24">
          </BreakpointContent>

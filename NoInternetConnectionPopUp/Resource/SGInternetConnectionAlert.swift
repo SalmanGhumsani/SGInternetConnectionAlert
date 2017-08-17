@@ -10,6 +10,7 @@ import UIKit
 
 public class SGInternetConnectionAlert: NSObject {
     
+    //Configuration
     public struct Configuration {
         var kALERT_TEXT             =   "NO INTERNET CONNECTION"
         var kBG_COLOR:UIColor       =   UIColor.red
@@ -21,6 +22,7 @@ public class SGInternetConnectionAlert: NSObject {
         public init() {}
         
     }
+    
     public var config:Configuration = Configuration(){
         didSet {
             lblAlert.text = config.kALERT_TEXT
@@ -69,9 +71,7 @@ public class SGInternetConnectionAlert: NSObject {
     }
     
     func reachabilityChanged(note: Notification) {
-        
         let reachability = note.object as! Reachability
-        
         if reachability.isReachable {
             if reachability.isReachableViaWiFi {
                 self.hideAlert()

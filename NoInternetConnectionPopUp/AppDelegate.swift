@@ -17,9 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         SGInternetConnectionAlert.shared.enable = true
+        
+        //IF NEED EXTRA CONFIGURATION
         var config = SGInternetConnectionAlert.Configuration()
         config.kBG_COLOR = UIColor.blue
         SGInternetConnectionAlert.shared.config = config
+        
+        
         return true
     }
 
