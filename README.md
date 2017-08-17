@@ -1,4 +1,4 @@
-# SGInternetConnectionAlert
+# SGInternetConnectionAlert.swift
 
 ‘MIT License’
 
@@ -13,3 +13,6 @@ A warning that shows an alert automatically with animation when no internet conn
 `config.kBG_COLOR = UIColor.blue`
 
 `SGInternetConnectionAlert.shared.config = config`
+
+
+Also thanks to Reachability.swift
