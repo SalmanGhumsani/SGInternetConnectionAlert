@@ -13,6 +13,6 @@ config.kBG_COLOR = UIColor.blue
 SGInternetConnectionAlert.shared.config = config
 ```
 
-## Also thanks to Reachability.swift
+## Also, Thanks to Reachability.swift
 
 ### Under MIT License
